@@ -18,3 +18,38 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+nav{
+  background-color: pink;
+  padding: 35px;
+}
+nav a{
+  color: lightyellow;
+  text-decoration:none ;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: arial sans-serif ;
+  font-weight: bold;
+  margin: 100px;
+}
+nav a{
+  color: white;
+}
+
+h1{
+  color: pink;
+}
+p{
+  color: pink;
+}
+section {
+  color: pink;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+nav{
+display: flex;
+  align-items: center;
+  gap: 20px;
+}
